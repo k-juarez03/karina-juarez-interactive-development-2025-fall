@@ -22,3 +22,36 @@ p{
 #uniqu-id{
     color:cornflowerblue;
 }
+a.paragraph-group{
+    color:cornflowerblue;
+}
+#box1{
+    width:100px;
+    height:100px;
+    background-color:cornflowerblue;
+}
+div div{
+    width:30px;
+    height:30px;
+    background-color:red;
+}
+.box .box{
+   
+}
+.box>.box{
+    width:20px;
+    height:20px;
+    background-color:red;
+}
+p:hover{
+    color:aqua;
+}
+p:active{
+    color:red;
+}
+p.special-paragraph.paragraph-group:hover{
+    color:red;
+}
+p.special-paragraph.paragraph-group:active{
+    color:purple;
+}
