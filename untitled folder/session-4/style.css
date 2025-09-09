@@ -1,0 +1,8 @@
+body{
+    font-size:0;
+    margin:10px;
+}
+.grid-unit{
+    width:50%;
+    background-color:blue;
+}
