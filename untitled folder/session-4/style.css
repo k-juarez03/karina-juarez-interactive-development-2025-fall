@@ -5,4 +5,7 @@ body{
 .grid-unit{
     width:50%;
     background-color:blue;
+    height:300px;
+    display:inline-block;
+    margin-right:10px;
 }
