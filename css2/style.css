@@ -1,3 +1,17 @@
 body{
-    background-color: cornflowerblue;
+    background-color: rgba(112, 133, 255, 0.795);
+}
+h1{
+    border-style:double;
+    border-width: 0.5ch;
+    border-color: rgb(255, 212, 73);
+    font-family: "Comic Relief";
+    color: navy;
+}
+h2{
+    font-family: "Comic Relief";
+    color: navy;
+}
+a{
+    font-family: 'Courier New', Courier, monospace;
 }
