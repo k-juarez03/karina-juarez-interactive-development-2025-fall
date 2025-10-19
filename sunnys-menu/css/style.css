@@ -1,15 +1,22 @@
 body{
-    margin: 50px;
+    background-color: rgb(249, 205, 59);
 }
 .box{
+    margin-bottom: 70;
     font-size: 18px;
-    height: 150px;
-    width: 150px;
 }
 #box1{
     background-color: aquamarine;
+    height: auto;
 }
 #box2{
     background-color: azure;
+   
+}
+#box3{
+    background-color: rgb(169, 228, 115);
+}
+#box4{
+    background-color: rgb(228, 115, 187);
     
 }
