@@ -1,12 +1,15 @@
 body{
-    margin: 5px;
+    margin: 50px;
 }
 .box{
-    border: 5px;
-    font-size: 14px;
+    font-size: 18px;
     height: 150px;
     width: 150px;
 }
 #box1{
     background-color: aquamarine;
+}
+#box2{
+    background-color: azure;
+    
 }
