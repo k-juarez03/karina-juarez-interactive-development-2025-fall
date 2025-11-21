@@ -1,0 +1,17 @@
+.button1{
+    width:100px;
+    height: 100px;
+    background-color:blue;
+}
+
+.redblock{
+    width:100px;
+    height:100px;
+    background-color:red;
+}
+
+.button2{
+    width:100px;
+    height: 100px;
+    background-color:green;
+}
