@@ -5,3 +5,35 @@ body{
     font-weight: bold;
     font-style: oblique;
 }
+.subtitle {
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.dot1 {
+  height: 25px;
+  width: 25px;
+  background-color: #5ea67f;
+  border-radius: 5rem;
+  display: inline-block;
+}
+.dot2 {
+  height: 25px;
+  width: 25px;
+  background-color: #f02e51;
+  border-radius: 5rem;
+  display: inline-block;
+}
+.dot3 {
+  height: 25px;
+  width: 25px;
+  background-color: #fc7c41;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot4 {
+  height: 25px;
+  width: 25px;
+  background-color: #5a87f9;
+  border-radius: 50%;
+  display: inline-block;
+}
