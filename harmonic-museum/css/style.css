@@ -1,14 +1,36 @@
-body{
-    background-color: rgb(86,29, 37);
-    font-family: sans-serif;
-    font-size: 55pt;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 1rem;
+    background: #222;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.masked-text {
+    font-size: 8rem;
     font-weight: bold;
-    font-style: oblique;
+    color: transparent;
+    background-image: url(https://images.unsplash.com/photo-1609156559138-63ba9015e89e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
+    background-size: 200%; /* Enlarged for smooth animation */
+    background-position: 0 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-background 5s infinite alternate linear;
 }
-.subtitle {
-    font-family: sans-serif;
-    font-size: x-large;
+
+@keyframes animate-background {
+    0% {
+        background-position: 0 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
 }
+
 .dot1 {
   height: 25px;
   width: 25px;
